@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de invitados</title>
+    <link rel="shortcut icon" href="../img/proyecto.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Quicksand", sans-serif;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-shadow: 1px 2px 2px rgb(121, 121, 121);
+      }
+
+      button {
+        padding: 10px;
+        margin-left: 20px;
+        background-color: rgba(186, 78, 78, 0.784);
+        border-color: rgb(225, 127, 127);
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        border-radius: 10px;
+      }
+
+      button:hover {
+        background-color: rgb(212, 159, 53);
+        border-color: rgb(251, 190, 69);
+      }
+
+      #resultado {
+        font-weight: bolder;
+        font-size: 33px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Invitados 👥✨</h1>
+
+    <p>
+      ‼️Clic en el botón para enviar la lista de invitados ordenada
+      alfabéticamente.
+    </p>
+    <button id="verResultado">Enviar Lista de Invitados</button>
+
+    <p>
+      Los primeros invitados que pueden sentarse juntos, por tener la misma
+      inicial en su nombre, son:
+    </p>
+    <p id="resultado">✉️</p>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
